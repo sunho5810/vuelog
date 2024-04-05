@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div>
     <h5>블로그입니다.</h5>
     <p>짜자잔</p>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: "VlogHome",
+  name: "VlogHome",
 };
 </script>
 
