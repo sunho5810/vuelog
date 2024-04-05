@@ -17,7 +17,7 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <!-- router 5 : a태그 처럼 사용한다. href대신 to속성을 사용한다. -->
-            <router-link to="/" class="nav-link">홈 페이지</router-link>
+            <router-link to="/home" class="nav-link">홈 페이지</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/list" class="nav-link">리스트 페이지</router-link>
@@ -31,7 +31,9 @@
   </nav>
 
   <!-- router 4 : router-view태그를 이용해 설정했던 라우터를 path에 따라 보여준다 -->
-  <router-view :boardDataList="boardDataList"></router-view>
+  <div class="container mt-4">
+    <router-view :boardDataList="boardDataList"></router-view>
+  </div>
 </template>
 
 <script>
