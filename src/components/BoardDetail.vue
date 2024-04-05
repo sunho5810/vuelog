@@ -7,6 +7,11 @@
     <h5>{{ boardDataList[$route.params.id].title }}</h5>
     <p>{{ boardDataList[$route.params.id].content }}</p>
   </div>
+
+  <!-- nested routes 2 : 어디서 보여줄지?
+    router-view태그를 이용하여 보여줄 수 있다.
+  -->
+  <router-view></router-view>
 </template>
 
 <script>
